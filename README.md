@@ -33,3 +33,5 @@ What you have to do:
 Good luck!
 
 P.S. I just did this for fun and I am no programmer. You can open a ticket but I am not sure I can solve. I want to add features  but we will see....
+
+P.S.2 On 1st gdm login you might get a prompt to unlock the keyring. Unfortunately this is a known issue and only unlocks with a password. 
