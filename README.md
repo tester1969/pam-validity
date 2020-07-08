@@ -21,7 +21,7 @@ What you have to do:
 
 "# ld -x --shared -o /usr/lib64/security/pam_validity.so pam_validity.o"
 
-/usr/lib64/security is the directory in which fedora saves projects, find where it is in your distro
+/usr/lib64/security is the directory in which fedora saves pam modules (you will see many pam_* modules there), find where it is in your distro
 
 5. Download and copy pam_validity.sh to/usr/local/bin/python-validity
 
