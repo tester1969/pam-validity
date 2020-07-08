@@ -14,6 +14,7 @@ What you have to do:
 2. Install pam development package of your distro, in Fedora it is pam-devel
 
 3. Download pam_validity.c in any directory and compile with 
+
 gcc -fPIC -fno-stack-protector -c pam_validity.c
 
 4. Install produced pam_valadity.o to pam modules directory
