@@ -17,7 +17,9 @@ What you have to do:
 gcc -fPIC -fno-stack-protector -c pam_validity.c
 
 4. Install produced pam_valadity.o to pam modules directory
+
 ld -x --shared -o /usr/lib64/security/pam_validity.so pam_validity.o
+
 /usr/lib64/security is the directory in which fedora saves projects, find where it is in your distro
 
 5. Download and copy pam_validity.sh to/usr/local/bin/python-validity
