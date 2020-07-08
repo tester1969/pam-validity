@@ -15,11 +15,11 @@ What you have to do:
 
 3. Download pam_validity.c in any directory and compile with 
 
-gcc -fPIC -fno-stack-protector -c pam_validity.c
+ # gcc -fPIC -fno-stack-protector -c pam_validity.c
 
 4. Install produced pam_valadity.o to pam modules directory
 
-ld -x --shared -o /usr/lib64/security/pam_validity.so pam_validity.o
+# ld -x --shared -o /usr/lib64/security/pam_validity.so pam_validity.o
 
 /usr/lib64/security is the directory in which fedora saves projects, find where it is in your distro
 
