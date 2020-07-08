@@ -28,6 +28,7 @@ What you have to do:
 6. Add the following to any pam config file in /etc/pam.d/ you want to have fingerprint auth. I added mine to gdm-password, su and sudo.
 
  auth		sufficient	pam_validity.so
+ 
  account sufficient  pam_validity.so
 
 Good luck!
