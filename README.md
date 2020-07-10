@@ -1,6 +1,12 @@
 # pam-validity
 PAM validity module to work with python-validity
 
+Currently supports the following sensors:
+
+138a:0090 Validity Sensors, Inc. VFS7500 Touch Fingerprint Sensor
+138a:0097 Validity Sensors, Inc.
+06cb:009a Synaptics, Inc. Which are present in various ThinkPad and HP laptops.
+
 Hi this is a module created to get avail from pam-validity so you can authenticate. 
 This is a very simple module
 
